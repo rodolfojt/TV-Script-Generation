@@ -12558,6 +12558,8 @@ Default GPU Device: /gpu:0
 <span class="sd">    :return: Batches as a Numpy array</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: Implement Function</span>
+    
+    <span class="c1"># This function was adaptated from: https://mauriciocodesso.com/post/tv-script/</span>
 
     <span class="c1"># Number of batches, integer</span>
     <span class="n">n_batches</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">int_text</span><span class="p">)</span> <span class="o">//</span> <span class="p">(</span><span class="n">batch_size</span> <span class="o">*</span> <span class="n">seq_length</span><span class="p">)</span>
@@ -12636,7 +12638,9 @@ Default GPU Device: /gpu:0
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The hyperparameters was adapted from: https://github.com/arvindshekar07/tv-script-generation/blob/master/dlnd_tv_script_generation.ipynb</span>
+
+<span class="c1"># Number of Epochs</span>
 <span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">1000</span>
 <span class="c1"># Batch Size</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">500</span>
